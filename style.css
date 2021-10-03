@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+ul {
+  padding-top: 20px;
+  width: 80%;
+  align-self: center;
+  margin: 0;
+  padding-right: 3rem;
+}
+
+li {
+  border-bottom: 3px solid #e0bba2;
+}
+
+h3 {
+  text-align: center;
+}
+
+.noBullet {
+  list-style-type: none;
+}
+.user-avatar {
+  border-radius: 50%;
+  height: 100px;
+  widdth: 100px;
+}
